@@ -1,0 +1,24 @@
+@import "./components/header/header.scss";
+@import "./components/main/homepage.scss";
+@import "./components/section/section.scss";
+@import "./components/sectiontwo/sectiontwo.scss";
+@import "./components/footerSection/footersec.scss";
+@import "./components/footer/footer.scss";
+body {
+  font-family: "Livvic", sans-serif;
+  background-color: #e5e5e5;
+  color: #000000;
+}
+.languages{
+  .nav-link{
+    color:red;
+  }
+}
+.container {
+  max-width: 1240px;
+  .row {
+    width: 100%;
+    text-align: left;
+    
+  }
+}

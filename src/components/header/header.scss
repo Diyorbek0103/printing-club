@@ -1,0 +1,44 @@
+%mybtn {
+    width: 200px;
+        font-weight: 600;
+        font-size: 16px;
+        border: none;
+        color: #FFFFFF;
+        height: 50px;
+        background: #111111;
+        margin-right: 60px;
+        padding-right: 0;
+}
+header{
+    .navbar-brand{
+        .nav-link{
+            color:black;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-left: 60px;
+            padding-left: 0;
+        }
+
+    }
+    .nav-item{
+        &:last-child{
+            .nav-link{
+                padding: 8px 0;
+            }
+        }
+        .nav-link{
+            color: #000000;
+            font-weight: 400;
+            font-size: 16px;
+            transition: linear 0.5s;
+            &:hover{
+                font-weight: 600;
+            }
+           
+        }
+        button{
+           @extend %mybtn;
+        }
+    }
+}
